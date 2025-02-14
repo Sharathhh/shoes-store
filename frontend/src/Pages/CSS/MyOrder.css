@@ -1,0 +1,39 @@
+.order-img{
+    width: 80px;
+}
+.myorder h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #343a40;
+}
+
+
+.order-header{
+     margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1.3fr 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+.order-header hr{
+        margin: 1rem 0;
+        color: inherit;
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .25;
+        width: 100%;
+}
+
+
+.order-details{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1.3fr 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+
+}
+.myorder{
+    min-height: 100vh;
+    
+}

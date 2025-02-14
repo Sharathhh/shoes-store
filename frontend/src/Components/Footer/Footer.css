@@ -1,0 +1,85 @@
+/* .newsletter{
+
+    background-color: black;
+    color: white;
+}
+
+.newsletter h1{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.accordion-item button{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    
+    
+}
+ */
+
+
+ .footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 80px;
+ }
+
+ .footer-inner{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 90px;
+    color: white;
+ }
+ .footer-inner p{
+    margin-top: 20px;
+ }
+ .footer-inner span{
+    color: rgba(202, 197, 190, 0.522);
+ }
+.icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ .final-footer{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .final-footer hr{
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 1300px;
+ }
+ .final-footer img{
+    width: 30px;
+ }
+ .flag-border{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid rgb(214, 205, 205) 1px;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+ }
+ .flag-border h3{
+    margin-left: 5px;
+    font-family: 'Outfit';
+    font-size: 20px;
+    margin-top: 3px;
+ }

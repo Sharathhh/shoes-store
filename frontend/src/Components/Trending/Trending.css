@@ -1,0 +1,35 @@
+.trending h1{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+    
+}
+.trending p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'Poppins';
+    line-height: 0px;
+}
+.trending-items{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 90vh;
+    padding: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+
+}
+::-webkit-scrollbar{
+    
+    display: block;
+
+
+}

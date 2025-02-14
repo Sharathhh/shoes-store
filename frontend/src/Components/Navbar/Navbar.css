@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: sticky;
+    z-index: 1000;
+}
+.navbar-logo a{
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 41%;
+}
+.container-fluid img{
+    height: 30px;
+}
+.cart-profile{
+    display: flex;
+    align-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-left: 0px;
+}

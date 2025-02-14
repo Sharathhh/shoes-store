@@ -1,0 +1,19 @@
+.breadcrum{
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+
+}
+.btn-home{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.btn-category{
+    border: none;
+    background-color: transparent;
+}
