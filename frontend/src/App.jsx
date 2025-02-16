@@ -25,6 +25,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<><Shop /><SignedIn> <SavetoDB/></SignedIn>
+          
             </>} />
         <Route path="/men" element={<ShopCategory banner={men_banner} category="men" />} />
         <Route path="/women" element={<ShopCategory banner={woman_banner} category="women" />} />
@@ -39,6 +40,7 @@ function App() {
         <Route path="/myorders" element={<MyOrder/>}/>
         <Route path="/receipt/:orderId" element={<ReceiptPage/>}/>
 
+        
       </Routes>
       <Footer/>
           </BrowserRouter>
