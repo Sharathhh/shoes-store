@@ -27,36 +27,3 @@ function App() {
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-// import './App.css'
-// import Data from './Components/Data/Data'
-// import Navbar from './Components/Naavbar/Navbar'
-// import Admin from './Pages/Admin/Admin'
-
-// function App() {
-
-
-//   return (
-//     <>
-//       <Navbar/>
-//     <Admin/>
-//     <Data/>
-
-  
-
-   
-  
-//     </>
-//   )
-// }
-
-// export default App
