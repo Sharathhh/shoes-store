@@ -24,9 +24,6 @@ function AllOrders() {
 
 
 
-
-
-
     const fetchAllOrders = async () => {
         try {
             const response = await fetch('http://localhost:4000/allorders');

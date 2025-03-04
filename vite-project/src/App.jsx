@@ -11,12 +11,7 @@ import Navbar from './Components/Naavbar/Navbar'
 import Home from './Pages/Home'
 function App() {
   return (
-      // <Routes>
-        
-      //   <Route path='/admin/*' element={<AdminLayout/>}/>
- 
-
-      // </Routes>
+    
       <Routes>
         <Route path='/' element={<Home/>}/>
        <Route path='/admin/*' element={<AdminLayout/>}>
