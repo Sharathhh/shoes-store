@@ -14,18 +14,15 @@ function App() {
     
       <Routes>
         <Route path='/' element={<Home/>}/>
-       <Route path='/admin/*' element={<AdminLayout/>}>
-      <Route path='addproduct' element={<AddProductPage/>}/>
-       <Route path='listproduct' element={<ListProductPage/>}/>
-       <Route path='allorders' element={<Orderpage/>}/>
-       <Route path='allorders/userdetails/:orderId' element={<UserDetails/>}/>
-       <Route path='datasummary' element={<Data/>}/>
-       </Route>
+        <Route path='/admin/*' element={<AdminLayout/>}>
+        <Route path='addproduct' element={<AddProductPage/>}/>
+        <Route path='listproduct' element={<ListProductPage/>}/>
+        <Route path='allorders' element={<Orderpage/>}/>
+        <Route path='allorders/userdetails/:orderId' element={<UserDetails/>}/>
+        <Route path='datasummary' element={<Data/>}/>
+        </Route>
+    </Routes>
     
-
-       </Routes>
-      
-      
   )
 }
 
