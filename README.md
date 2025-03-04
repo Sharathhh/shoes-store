@@ -26,7 +26,7 @@ Shoe Store is a e-commerce application built using the MERN stack (MongoDB, Expr
 ## 🔧 Setup Instructions
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/yourusername/MERN-Shoe-Store.git
+git clone https://github.com/Sharathhh/MERN-Shoe-Store.git
 cd MERN-Shoe-Store
 ```
 
