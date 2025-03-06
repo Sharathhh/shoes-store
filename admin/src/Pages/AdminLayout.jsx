@@ -8,7 +8,6 @@ function AdminLayout() {
    <div>
       <Navbar/>
       <Outlet />
-
    </div>
 
   )
