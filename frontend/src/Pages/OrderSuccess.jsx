@@ -13,7 +13,6 @@ function OrderSuccess() {
     <Link to='/myorders'><button class='btn btn-primary align-middle '>View Order</button></Link>
     </div>
       
-    
   )
 }
 
