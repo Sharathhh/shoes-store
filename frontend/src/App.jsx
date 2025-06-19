@@ -38,7 +38,6 @@ function App() {
         <Route path="/order-success" element={<OrderSuccess/>}/>
         <Route path="/myorders" element={<MyOrder/>}/>
         <Route path="/receipt/:orderId" element={<ReceiptPage/>}/>
-        
       </Routes>
       <Footer/>
           </BrowserRouter>
